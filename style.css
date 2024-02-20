@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color:white;
+}
+
+body {
+    background-image:linear-gradient(rgba(236, 236, 247, 0.5), rgba(193, 210, 218, 0.801)), url(/thomas-john-iGuAien6XXQ-unsplash.jpg);
+}
+
+ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    transition: all;
+}
+
+ul:hover {
+    text-decoration: underline;
+}
+
+.p {
+    margin: 150px;
+}
+
+p {
+    background-image: linear-gradient(rgba(159, 159, 221, 0.5), rgba(22, 67, 88, 0.801)) !important;
+
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
